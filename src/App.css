@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  background-color:#393E46;
+
+}
+
+.navbar-nav .nav-link{
+  color: #71c9cE;
+}
+
+.navbar-nav .nav-link:hover {
+  display: flex;
+  position: relative;
+  color: yellow; 
+  font-weight:bold ;
+  z-index: 2;
+}
+.nav-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-button a{
+   margin: 10px;
+}
+.container-fluid img{
+   width: 24vw;
+}
+@media screen and (max-width: 307px) {
+ .container-fluid .navbar-brand img{
+    width: 42vw;
+ }
+ .nav-button a {
+    width: 50%;
+    font-size: 0.7rem;
+ }
+}

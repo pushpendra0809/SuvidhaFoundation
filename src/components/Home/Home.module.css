@@ -1,0 +1,1021 @@
+.container{
+  width: 100%;
+  margin-top: 4%;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 5px solid #00ADB5; */
+  }
+  .image-container img{
+    width: 100%;
+    box-shadow: 0px 15px 15px #00ADB5;
+  }
+  
+  .image-text {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    top: 50%;
+    left: 40%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  .button-container .button{ 
+      background-color: rgba(255, 255, 255, 0);
+      margin: 10px;
+      color: #222831;
+      border: 2px solid #222831;
+      font-weight: bold;
+      text-decoration: none;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-700%);
+    padding: 15px;
+  }
+  .button-container-direc button:hover{
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+  }
+  .cardIntership{
+    margin: 20px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .cardIntership h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2rem;
+  }
+  .cardIntership p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .cardIntership .apply {
+   display: flex;
+   /* border-radius:5px ; */
+   /* position: absolute; */
+   align-items: center;
+   justify-content: center;
+  }
+  .container_SuvidhaAbout{
+    display: flex;
+    /* position: absolute; */
+    padding: 5%;
+    width: 100%;
+    background-color:#00ADB5;
+  justify-content: space-around;
+  }
+  .section1 .image-container{
+    width: 100%;
+  }
+  .section1 .image-container img{
+    width: 100%;
+  }
+  .section1{
+    width: 40%;
+  }
+  .section2{
+    width: 40%;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+  }
+
+  .container-ourWork {
+    padding: 5%;
+    background-color:#222831;
+    color: #00ADB5;
+  }
+  .container-ourWork h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00ADB5;
+  }
+  .container-ourWork h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00ADB5;
+  }
+   .card-Do{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+  .carditeam1{
+    width: 20%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 25px;
+    /* box-shadow: 0px 20px 20px #00ADB5; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  }
+  .carditeam1:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    opacity: 100%;
+    border: 5px solid #393E46;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+
+  }
+ 
+  .carditeam1 img{
+    width:100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .carditeam1:hover .cardMassage{
+    opacity: 1;
+  }
+  .carditeam1 .cardMassage{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    background: white;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+  }
+  .carditeam1 .TextCard{  
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .carditeam1 .cardMassage .TextCard p{  
+  text-wrap:wrap;
+  font-size: 0.8vw;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .carditeam1 .cardMassage .TextCard h4{
+    font-weight: bold;
+    font-size: 1vw;
+  }
+
+  .cardNumber{
+    display: flex;
+    padding: 5%;
+    width: 100%;
+    justify-content:center;
+    background-color: #00ADB5;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    background-color: #393E46;
+    /* border:5px solid #222831; */
+    margin: 10px;
+    box-shadow: 0px 20px 20px #222831;
+
+    
+  }
+  .section12 .image-container1{
+    width: 100%;
+  }
+  .section12 .image-container1 img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 37px;
+  }
+   .section12{
+    display: flex;
+    justify-content: center;
+  }
+  /*.section22{
+    width: 50%;
+    border: 5px solid black;
+  } */
+  .section22 .aboutText-cotainer1 p{
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+  }
+  .cardEvent{
+     padding: 5%;
+  }
+  .cardEvent h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ADB5;
+   
+  }
+  .cardEvent h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ADB5;
+  }
+  .cardEvent .eventButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+  }
+  .cardEvent .eventButton .eventShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    width: 5%;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    margin: 5%;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15%;
+  }
+  .cardBox1 {
+    margin: 20px;
+    padding: 10px;
+    /* border: 3px solid #00ADB5; */
+    border-radius: 10px;
+    box-shadow: 0 15px 12px #00ADB5;
+    backdrop-filter: blur(14px);
+  }
+  .cardBox1:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    opacity: 100%;
+  }
+  .cardBox1 img{
+     width: 100%;
+     border: 3px solid #00ADB5;
+     border-radius: 10px;
+  }
+
+.cardTeam {
+  padding: 20px;
+}
+.cardTeam h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00ADB5;
+}
+.cardTeam h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00ADB5;
+}
+.Member{
+  display: flex;
+}
+
+.Member .iteam {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border: 5px solid #00ADB5;
+  border-radius: 20px;
+}
+.Member .iteam h4 {
+  display: flex;
+  font-size: 1 rem;
+  justify-content: center;
+  align-items: center;
+  color: #00ADB5;
+}
+.Member .iteam p{
+  display: flex;
+  font-size: 1 r em;
+  justify-content: center;
+  align-items: center;
+  color: #00ADB5;
+}
+.Member .iteam img{
+  width: 100%;
+  border-radius: 19px;
+  padding: 2px;
+}
+.Member .iteam .socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLegent {
+  /* margin: 20px; */
+  padding: 40px;
+  background-color: #393E46;
+  width: 100%;
+  
+}
+.cardLegent h3 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cardLegent h4 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardLegent .cardlegentIteam{
+  display: flex;
+  /* border: 5px solid white; */
+  /* box-shadow: 0 15px 12px #00ADB5;
+    backdrop-filter: blur(14px); */
+
+}
+.cardlegentIteam{
+  margin: 10px;
+}
+.cardlegentIteam .imageIteam img{
+  width: 100%;
+  margin: 10px;
+  /* border: 5px solid white; */
+  box-shadow: 00 12px 12px white;
+  /* box-shadow: 0 8px 12px 12px #00ADB5; */
+    /* backdrop-filter: blur(14px); */
+}
+.imageIteam{
+  margin: 20px; 
+}
+@keyframes slideFromRight {
+  0% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.cardlegentIteam {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.imageIteam {
+  animation: slideFromRight 0.5s forwards;
+}
+
+ .cardLegent .eventButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+ .cardLegent .eventButtons .eventShows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px;
+  width: 5%;
+}
+.finalbox{
+display: flex;
+}
+
+.cardLegent1 {
+  /* margin: 20px; */
+  padding: 40px;
+  background-color: #00ADB5;
+  width: 100%;
+}
+.cardLegent1 h3 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cardLegent1 h4 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cardLegent1 .cardlegentIteam1{
+  display: flex;
+  /* border: 5px solid white; */
+  
+
+}
+.cardlegentIteam1{
+  margin: 10px;
+  border-radius: 20px;
+  
+}
+.cardlegentIteam1 .imageIteam1 img{
+  width: 100%;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+.imageIteam1{
+  margin: 15px; 
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+@media screen and (max-width: 1000px) {
+  .container{
+    margin-top: 9%;
+  }
+  .image-text {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    top: 50%;
+    left: 24%;
+    color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-416%);
+    padding: 15px;
+  }
+
+  .container_SuvidhaAbout{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardIntership h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.4rem;
+  }
+
+  .section1{
+    width: 100%;
+    margin: 0;
+  }
+  .section2{
+    width: 100%;
+    margin: 0;
+  }
+  .section2 .aboutText-cotainer h1{
+    font-size: 2rem;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .card-Do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .carditeam1{
+  width: 70%;
+ }
+ .carditeam1 .cardMassage .TextCard p{  
+  text-wrap:wrap;
+  font-size: 3vw;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .carditeam1 .cardMassage .TextCard h4{
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+  .cardNumber{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    justify-content:center;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    background-color: #393E46;
+    margin: 30px;
+    box-shadow: 0px 20px 20px #222831;
+  }
+
+ .cardEvent .eventButton .eventShow{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:5px;
+   width: 12%;
+ }
+
+ .box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 4%;
+ }
+ .cardBox1 {
+   margin: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0 15px 12px #00ADB5;
+   backdrop-filter: blur(14px);
+ }
+  .cardBox1 .eventsMassage p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  /* .cardTeam {
+    padding: 20px;
+  } */
+  /* .cardTeam h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ADB5;
+  } */
+  /* .cardTeam h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ADB5;
+  } */
+  .Member{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .Member .iteam {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 5px solid #00ADB5;
+    border-radius: 20px;
+  } */
+  .Member .iteam h4 {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #00ADB5;
+  }
+  .Member .iteam p{
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #00ADB5;
+  }
+ 
+  .Member .iteam .socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  .cardLegent1 .cardlegentIteam1{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media screen and (max-width: 643px) {
+  .container{
+    margin-top: 10%;
+  }
+  .image-text {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    top: 40%;
+    left: 17%;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-332%);
+    padding: 15px;
+  }
+  .cardIntership h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+   }
+   .section2 .aboutText-cotainer h1{
+    font-size: 1.9rem;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .section1{
+    width: 100%;
+    margin: 0;
+  }
+  .section2{
+    width: 100%;
+    margin: 0;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    background-color: #393E46;
+    margin: 27px;
+    box-shadow: 0px 20px 20px #222831;
+  }
+  .cardTeam h3{
+    font-size: 1.5rem;
+  }
+  .cardTeam h4{
+    font-size: 1.1rem;
+  }
+  .cardEvent h2{
+    font-size: 1.5rem;
+  }
+  .cardEvent h3{
+    font-size: 1.1rem;
+  }
+  .container-ourWork h1{
+    font-size: 1.5rem;
+  }
+  .container-ourWork h3{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .container{
+    margin-top: 12%;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-250%);
+    padding: 15px;
+  }
+  .cardIntership h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+   }
+   .cardIntership p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+   }
+   .section2 .aboutText-cotainer h1{
+    font-size: 1.8rem;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .cardEvent .eventButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+  }
+  .cardEvent .eventButton .eventShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    width: 20%;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    margin: 5%;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    background-color: #393E46;
+    margin: 20px;
+    box-shadow: 0px 20px 20px #222831;
+  }
+  .cardTeam h3{
+    font-size: 1.5rem;
+  }
+  .cardTeam h4{
+    font-size: 1.1rem;
+  }
+  .cardEvent h2{
+    font-size: 1.5rem;
+  }
+  .cardEvent h3{
+    font-size: 1.1rem;
+  }
+  .container-ourWork h1{
+    font-size: 1.5rem;
+  }
+  .container-ourWork h3{
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 387px) {
+  .container{
+    margin-top: 14%;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-187%);
+    padding: 15px;
+  }
+  .section2 .aboutText-cotainer h1{
+    font-size: 1.6rem;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    background-color: #393E46;
+    margin: 17px;
+    box-shadow: 0px 20px 20px #222831;
+  }
+  .cardTeam h3{
+    font-size: 1.4rem;
+  }
+  .cardTeam h4{
+    font-size: 1.1rem;
+  }
+  .cardEvent h2{
+    font-size: 1.4rem;
+  }
+  .cardEvent h3{
+    font-size: 1.1rem;
+  }
+  .container-ourWork h1{
+    font-size: 1.4rem;
+  }
+  .container-ourWork h3{
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 344px) {
+  .container{
+    margin-top: 16%;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-253%);
+    padding: 7px;
+  }
+  .section2 .aboutText-cotainer h1{
+    font-size: 1.5rem;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    background-color: #393E46;
+    margin: 16px;
+    box-shadow: 0px 20px 20px #222831;
+  }
+  .cardLegent1 h3{
+    font-size: 1.3rem;
+  }
+  .cardLegent1 h4{
+    font-size: 1rem;
+  }
+  .cardTeam h3{
+    font-size: 1.3rem;
+  }
+  .cardTeam h4{
+    font-size: 1rem;
+  }
+  .cardEvent h2{
+    font-size: 1.3rem;
+  }
+  .cardEvent h3{
+    font-size: 1rem;
+  }
+  .container-ourWork h1{
+    font-size: 1.3rem;
+  }
+  .container-ourWork h3{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 307px) {
+  .container{
+    margin-top: 18%;
+  }
+  .button-container-direc { 
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container-direc button { 
+    display: flex;
+    position: relative;
+     background-color: transparent;
+     color: #393E46;
+     font-weight: bold;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-253%);
+    padding: 7px;
+  }
+  .cardIntership p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+   }
+   .section2 .aboutText-cotainer h1{
+    font-size: 1.4rem;
+  }
+  .section2 .aboutText-cotainer p{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .cardEvent .eventButton .eventShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    width: 30%;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    margin: 5%;
+  }
+  .container_SuvidhaAbout1{
+    display: flex;
+   flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    background-color: #393E46;
+    margin: 14px;
+    box-shadow: 0px 20px 20px #222831;
+  }
+  .cardLegent1 h3{
+    font-size: 1.1rem;
+  }
+  .cardLegent1 h4{
+    font-size: 0.8rem;
+  }
+  .cardTeam h3{
+    font-size: 1.1rem;
+  }
+  .cardTeam h4{
+    font-size: 0.8rem;
+  }
+  .cardEvent h2{
+    font-size: 1.1rem;
+  }
+  .cardEvent h3{
+    font-size: 0.8rem;
+  }
+  .container-ourWork h1{
+    font-size: 1.1rem;
+  }
+  .container-ourWork h3{
+    font-size: 0.8rem;
+  }
+  .hexagoun_hexagonbody h1 {
+    font-size: 1rem;
+  }
+  .cardEvent .eventsMassage p{
+    font-size: 0.8rem;
+  }
+}
+ 

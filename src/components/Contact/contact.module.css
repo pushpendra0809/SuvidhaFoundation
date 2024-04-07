@@ -1,0 +1,308 @@
+.cardContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5%; */
+}
+.page-header {
+    width: 100%;
+    position: relative;
+    margin-top: 4%;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgb(0,0,0,.5), rgba(0,0,0, .5)),url(https://suvidhafoundationedutech.org/img/page-header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-12 a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.page-header h2 {
+    position: relative;
+    color: #00ADB5;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.sectionCards{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #00ADB5; */
+    /* margin: 8%; */
+    /* border: 2px solid #222836; */
+    /* width: fit-content; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+ .sectiontContact1{
+    width: 50%;
+ }
+ .sectiontContact1 img{
+    width: 100%;
+    height: 65vh;
+ }
+ .sectiontContact2{
+    width: 50%;
+    margin: 2%;
+ }
+ .sectiontContact2{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+ }
+ .sectiontContact2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .sectiontContact2 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 5%;
+    color: #222836;
+
+ }
+.sectionCardsLocation{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5; */
+    /* margin: 8%; */
+    /* border: 2px solid #222836; */
+    /* width: fit-content; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    z-index: 1;
+}
+ .sectiontContact11{
+    width: 50%;
+ }
+ .sectiontContact11 img{
+    width: 100%;
+    height: 65vh;
+ }
+ .sectiontContact22{
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    background-color: #222836;
+ }
+ .sandy1{
+   width: 50%;
+ }
+ .sandy2{
+   width: 30%;
+ }
+ /* .sectiontContact22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ } */
+ .sectiontContact22 h1 {
+    display: flex;
+    margin-left: 5%;
+    color: #EEEEEE;
+
+ }
+ .sectiontContact22 a {
+    /* display: flex; */
+    margin-left: 5%;
+    text-decoration: none;
+
+ }
+ .sectiontContact22 p {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 1.2rem;
+    margin-left: 5%;
+    color: #222836;
+    color: #00ADB5;
+
+ }
+ .contactIcons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 5%;
+    /* align-items: center; */
+    /* justify-content: center; */
+ }
+ .contactIcons a{
+    margin: 5px;
+ }
+ .contactIcons img{
+    width: 3vw;
+ }
+ .iconcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #222836;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #222836;
+ }
+ .iconcard  img {
+    width: 3vw;
+    margin: 5px;
+    right: 10px;
+    position: relative;
+    border-radius: 10px;
+ }
+ .contactIcon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .iconcard a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00ADB5;
+    
+ }
+ .mapouter{
+   position:relative;
+   text-align:right;
+   height:100%;
+   width:100%;
+}
+.gmap_canvas {
+   overflow:hidden;
+   background:none!important;
+   height:100%;
+   width:100%;
+}
+
+ @media screen and (max-width: 1000px) {
+
+   .sectionCards{
+      display: flex;
+      flex-direction: column;
+   }
+   .sectiontContact1{
+      width: 100%;
+   }
+   .sectiontContact2{
+      width: 100%;
+   }
+   .page-header h2{
+      font-size: 3rem;
+   }
+   .sectiontContact22{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .sandy1{
+      width: 100%;
+      margin-top: 20px;
+   }
+   .sandy2{
+      width: 100%;
+      margin-top: 30px;
+      display: flex;
+      position: relative;
+      padding-left:5px ;
+   }
+   /* .mapouter{
+      width: 100%;
+   }
+   .gmap_canvas{
+      width: 100%;
+   } */
+   .sandy2 iframe{
+      width: 90%;
+   }
+   .iconcard {
+      width: 27%;
+   }
+   .contactIcons img{
+      width: 4vw;
+   }
+  
+ }
+
+ @media screen and (max-width: 618px) {
+   .page-header h2{
+      font-size: 2rem;
+   }
+   .iconcard a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: #00ADB5; 
+   }
+   .iconcard {
+      width: 37%;
+   }
+   .iconcard a img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: #00ADB5; 
+   }
+   .sectiontContact22 p {
+      display: flex;
+      /* align-items: center;
+      justify-content: center; */
+      font-size: 0.9rem;
+      margin-left: 5%;
+      color: #222836;
+      color: #00ADB5;
+  
+   }
+   .contactIcons img{
+      width: 6vw;
+   }
+   .contactIcon img{
+      width: 6vw;
+   }
+ }
+
+ 

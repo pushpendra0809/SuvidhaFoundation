@@ -1,0 +1,233 @@
+.cardContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-header {
+    width: 100%;
+    position: relative;
+    /* margin-bottom: 45px; */
+    margin-top: 4%;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgb(0,0,0,.5), rgba(0,0,0, .5)),url(https://suvidhafoundationedutech.org/img/Banner/Donation.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-12 a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.page-header h2 {
+    position: relative;
+    color: #00ADB5;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.sectionCards{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* margin: 8%; */
+    /* border: 2px solid #222836; */
+    /* width: fit-content; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    z-index: 1;
+}
+ .sectiontContact1{
+    width: 100%;
+ }
+ .sectiontContact1 img{
+    width: 100%;
+    height: 65vh;
+ }
+ .sectiontContact2{
+    width: 100%;
+    /* height: 50vh; */
+    background-color: #222836;
+    color: #EEEEEE;
+    padding:5%;
+ }
+ /* .sectiontContact2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ } */
+ .sectiontContact2 h1 {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+ }
+ .sectiontContact2 p {
+    display: flex;
+    /* align-items: center;  */
+    /* justify-content: center; */
+    font-size: 1.2rem;
+    margin: 5px;
+    color: #EEEEEE;
+
+ }
+ .contactIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+ .iconcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #222836;
+    width: 44%;
+    border-radius: 10px;
+    background-color: #222836;
+ }
+ .iconcard  img {
+    width: 3vw;
+    margin: 5px;
+    right: 10px;
+    position: relative;
+    border-radius: 10px;
+ }
+ .iconcard a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00ADB5;
+    
+ }
+ .detailCard2{
+   display: flex;
+   /* flex-direction: column; */
+   /* width: 100%; */
+   /* position: relative; */
+}
+.black1{
+   width: 50%;
+   background-color: #00ADB5;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+.black2{
+   width: 50%;
+}
+.black2 img{
+   width: 100%;
+   height: 55vh;
+}
+.black1 h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10%;
+   font-size: 1.2rem;
+   margin-right:2px ;
+   width: 100%;
+   position: relative;
+}
+.black1 p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 5%;
+   padding: 5%;
+   font-size: 0.9rem;
+   width: 100%;
+}
+.black2{
+   width: 50%;
+  
+}
+.sectiontContact2{
+   display: flex;
+   /* flex-direction: column; */
+   position: relative;
+}
+.detailCard1{
+   width: 50%;
+}
+.detailCard2{
+   width: 50%;
+}
+
+@media screen and (max-width: 1000px){
+   .sectiontContact2{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .detailCard1{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+   }
+   .detailCard2{
+      width: 100%;
+      /* margin-bottom: 5px; */
+   }
+   .black2 img {
+      width: 100%;
+      height: 57vh;
+  }
+    
+}
+@media screen and (max-width: 600px){
+   .black1 p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5%;
+      padding: 5%;
+      font-size: 0.6rem;
+      width: 100%;
+   }
+   .sectiontContact2 p {
+      display: flex;
+      font-size: 0.6rem;
+      color: #EEEEEE;
+  
+   }
+   .black1 h2{
+      display: flex;
+      position: relative;
+      padding: 5px;
+      font-size: 0.7rem;
+      align-items: center;
+      justify-content: center;
+   }
+   .page-header h2 {
+      font-size: 40px;
+  }
+}

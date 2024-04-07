@@ -1,0 +1,128 @@
+.Container_Footer{
+    bottom:0;
+    position:relative;
+    /* left: 0; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222822;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* .footermainCard{
+    display: flex;
+} */
+.foundationLogo img{
+    width: 8vw;
+    color: #222822;
+}
+.cardFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+.sectionCard1{
+    width: 30.33%;
+    margin: 10px;
+    position: relative;
+    padding-left: 6%;
+}
+.sectionCard2{
+    width: 30.33%;
+    margin: 10px;
+    position: relative;
+    padding-left: 6%;
+}
+.sectionCard2 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+.sectionCard3{
+    width: 30.33%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 6%;
+} 
+.sectionCard3 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+.highligt:hover{
+    color: #00ADB5;
+    /* font-size: 1.1rem; */
+    letter-spacing: 1px;
+}
+.Bottom-line{
+    display: flex;
+    justify-content: space-between;
+    background-color: #393E46;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.sectionCard1  a img{
+    margin: 10px;
+    height: 20%;
+  }
+  .Midea1 img{
+    width: 6%;
+  }
+.Midea1 img:hover{
+    background-color: white;
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    .cardFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+    }
+    .sectionCard1{
+        width: 100%;
+        margin: 10px;
+        position: relative;
+        padding-left: 6%;
+    }
+    .foundationLogo img{
+        width: 18vw;
+        color: #222822;
+    }
+    .sectionCard2{
+        width: 100%;
+        margin: 10px;
+        position: relative;
+        padding-left: 6%;
+    }
+    .sectionCard3{
+        width: 100%;
+        margin: 10px;
+        position: relative;
+        padding-left: 6%;
+    }
+    .Bottom-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+  }
